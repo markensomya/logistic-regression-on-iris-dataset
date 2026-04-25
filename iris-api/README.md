@@ -9,7 +9,6 @@ Enter sepal and petal measurements → get the predicted species (Setosa, Versic
 ## Project Structure
 
 ```
-iris-api/
 ├── main.py            # FastAPI backend
 ├── model.pkl          # Trained logistic regression model
 ├── requirements.txt   # Python dependencies
@@ -29,8 +28,8 @@ iris-api/
 
 **1. Clone the repository**
 ```bash
-git clone https://github.com/your-username/iris-flower-classification.git
-cd iris-flower-classification
+git clone https://github.com/markensomya/logistic-regression-on-iris-dataset.git
+cd logistic-regression-on-iris-dataset
 ```
 
 **2. Create and activate virtual environment**
@@ -77,4 +76,4 @@ Response:
 
 ## Model
 
-Trained on the classic [Iris dataset](https://scikit-learn.org/stable/auto_examples/datasets/plot_iris_dataset.html) using Logistic Regression from scikit-learn with an 75/25 train-test split.
+Trained on the classic [Iris dataset](https://scikit-learn.org/stable/auto_examples/datasets/plot_iris_dataset.html) using Logistic Regression from scikit-learn with a 75/25 train-test split.
